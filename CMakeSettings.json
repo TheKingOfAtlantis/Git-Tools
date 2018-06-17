@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "name": "Amd64-Debug",
+      "generator": "Visual Studio 15 2017 Win64",
+      "buildRoot": "${workspaceRoot}\\build\\${name}",
+      "configurationType": "Debug"
+    },
+    {
+      "name": "x86-Debug",
+      "generator": "Visual Studio 15 2017",
+      "buildRoot": "${workspaceRoot}\\build\\${name}",
+      "configurationType": "Debug"
+    },
+    {
+      "name": "x86-Release",
+      "generator": "Visual Studio 15 2017",
+      "buildRoot": "${workspaceRoot}\\build\\${name}",
+      "configurationType": "Release"
+    },
+    {
+      "name": "Amd64-Release",
+      "generator": "Visual Studio 15 2017 Win64",
+      "buildRoot": "${workspaceRoot}\\build\\${name}",
+      "configurationType": "Release"
+    }
+  ]
+}
